@@ -1,0 +1,33 @@
+{
+  "name": "kellyhudiono",
+  "version": "1.0.0",
+  "description": "Personal website ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khudiono/kellyhudiono.git"
+  },
+  "author": "Kelly Hudiono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khudiono/kellyhudiono/issues"
+  },
+  "homepage": "https://github.com/khudiono/kellyhudiono#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
