@@ -4,7 +4,9 @@
   "description": "Personal website ",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server/server.js"
+    "start": "nodemon server/server.js",
+    "build": "webpack -d --watch",
+    "view": "webpack -d --watch | nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +19,12 @@
   },
   "homepage": "https://github.com/khudiono/kellyhudiono#readme",
   "dependencies": {
+    "aos": "^2.3.4",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "react-dom": "^16.8.5",
+    "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
