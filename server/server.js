@@ -6,6 +6,11 @@ const app = express();
 
 app.use(cors());
 
+app.get('*.gz', function (req, res, next) {
+  res.set('Content-Encoding', 'gzip');
+  next();
+});
+
 app.use(express.static(__dirname + '/../public'));
 
 app.get('/foodblog', (req, res) => {

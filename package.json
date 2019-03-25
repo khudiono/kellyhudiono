@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon server/server.js",
     "build": "webpack -d --watch",
+    "build:prod": "webpack -p",
     "view": "webpack -d --watch | nodemon server/server.js"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "express": "^4.16.4",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
+    "react-lazyload": "^2.5.0",
     "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
@@ -31,6 +33,7 @@
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "compression-webpack-plugin": "^2.0.0",
     "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
