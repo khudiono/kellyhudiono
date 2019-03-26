@@ -23,6 +23,7 @@
     "aos": "^2.3.4",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "lighthouse": "^4.2.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-lazyload": "^2.5.0",

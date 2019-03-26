@@ -19,12 +19,19 @@ const About = () => {
         >
           <h4>Hello, I'm Kelly!</h4>
           <p>Bay Area software developer who specializes in Javascript,
-          React, Node.js, MySQL, and MongoDb. I love being around creative people
-          and those that inspire me to become better. </p>
+          React, Node.js, MySQL, and MongoDB. I love being around creative and
+          goal-oriented people, and enthusiastic about team collaboration and
+          building intuitive web applications that deliver impactful user
+          experiences. </p>
           <p>When I'm not coding, you can find me trying to find the latest dessert places,
           eating anything that are carbs (bread & fries especially),
           working out at Barry's, and visiting the latest interactive pop-up museums. </p>
           <p> Feel free to reach out, I'd love to chat! </p>
+          <div className="contact-button">
+            <a href="mailto:kellyhudiono@gmail.com" target="_blank">
+              CONTACT ME
+            </a>
+          </div>
         </div>
       </div>
     </div>
