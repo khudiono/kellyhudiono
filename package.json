@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server/server.js",
-    "build": "webpack -d --watch",
-    "build:prod": "webpack -p",
+    "react:dev": "webpack -d --watch",
+    "react:prod": "webpack -p",
     "view": "webpack -d --watch | nodemon server/server.js"
   },
   "repository": {
