@@ -37,7 +37,7 @@ body {
 
 #nav li {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   list-style: none;
   padding: 15px 30px 0px 30px;
   cursor: pointer;
@@ -52,7 +52,7 @@ body {
 }
 
 #home {
-  min-height: 900px;
+  min-height: 740px;
   padding: 10px 10px 10px 10px;
   background-image: url("../images/background.png");
   background-attachment: fixed;
@@ -73,7 +73,7 @@ body {
 
 #home h3 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 #home .social-links {
@@ -90,7 +90,7 @@ body {
 
 .net-icon {
   padding: 5px 7px 5px 7px;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 12px;
 }
 
@@ -116,12 +116,12 @@ body {
 }
 
 #about {
-  min-height: 800px;
+  min-height: 600px;
   padding: 100px 20px 20px 20px;
 }
 
 #about h2 {
-  font-size: 70px;
+  font-size: 60px;
   padding-left: 8%;
 }
 
@@ -139,12 +139,12 @@ body {
 }
 
 .about-desc p {
-  font-size: 19px;
+  font-size: 16px;
 }
 
 #about .profile-picture img {
-  width: 400px;
-  height: 400px;
+  width: 360px;
+  height: 360px;
   padding: 1px 50px 1px 50px;
 }
 
@@ -155,7 +155,7 @@ body {
 }
 
 #about h4 {
-  font-size: 45px;
+  font-size: 40px;
   margin-top: 0px;
   margin-bottom: -10px;
 }
@@ -167,11 +167,11 @@ body {
 }
 
 .contact-button {
-  width: 250px;
+  width: 210px;
   padding: 15px 2px 15px 2px;
   background-color: #e5cbcf;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 2px;
   font-family: 'Rubik', sans-serif !important;
@@ -190,12 +190,12 @@ body {
 #projects {
   display: flex;
   flex-direction: column;
-  min-height: 800px;
+  min-height: 600px;
   padding: 100px 20px 150px 20px;
 }
 
 #projects h2 {
-  font-size: 70px;
+  font-size: 60px;
   padding-left: 8%;
 }
 
@@ -205,32 +205,33 @@ body {
 }
 
 #projects .boba-display-1 {
-  max-width: 40%;
+  max-width: 550px;
   height: auto;
   padding-left: 100px;
 }
 
 #projects .boba-display-2 {
-  max-width: 30%;
+  max-width: 400px;
   height: auto;
   margin-left: -200px;
 }
 
 #projects .weather-demo {
-  max-width: 20%;
+  max-width: 250px;
   height: auto;
   border-radius: 48px;
 }
 
 .project-button {
-  width: 250px;
+  width: 200px;
   padding: 18px 5px 18px 5px;
   border: 1px solid black;
-  font-size: 17px;
+  font-size: 14px;
   font-family: 'Rubik', sans-serif !important;
   position: absolute;
   right: 50px;
-  margin-right: 15%;
+  margin-right: 20%;
+  margin-top: -30px;
   transition: all .2s ease-in-out !important;
   text-align: center;
   border-radius: 10px;
@@ -262,6 +263,7 @@ body {
 .blog h3 {
   margin-top: -20px;
   font-weight: 500;
+  font-size: 15px;
 }
 
 .blog-photos {
@@ -272,7 +274,7 @@ body {
 }
 
 .blog img {
-  max-width: 320px;
+  max-width: 270px;
   height: auto;
   padding-right: 4px;
 }
@@ -287,8 +289,8 @@ body {
 }
 
 .blog-photo-row-2 img {
-  height: 150px;
-  width: 150px;
+  height: 105px;
+  width: 105px;
   padding-right: 4px;
   object-fit: cover;
 }
@@ -318,15 +320,15 @@ body {
 
 @media only screen and (max-width: 600px) {
   #home h1 {
-    font-size: 90px;
+    font-size: 85px;
   }
   #home h3 {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   #nav {
     justify-content: center;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   #nav ul {
@@ -339,15 +341,15 @@ body {
 
   #nav li {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     list-style: none;
-    padding: 8px 18px 0px 18px;
+    padding: 8px 12px 0px 12px;
     cursor: pointer;
   }
 
   #about .profile-picture img {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     padding: 1px 50px 1px 50px;
   }
 
@@ -357,7 +359,7 @@ body {
   }
 
   .about-desc p {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -397,7 +399,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 1020px){
   .project-button {
     width: 250px;
     padding: 18px 5px 18px 5px;
@@ -407,6 +409,7 @@ body {
     position: absolute;
     right: 0px;
     margin-right: 5%;
+    margin-top: 2%;
     transition: all .2s ease-in-out !important;
     text-align: center;
   }
@@ -417,19 +420,19 @@ body {
   }
 
   .boba-display-1 {
-    max-width: 50% !important;
+    max-width: 230px;
     height: auto;
     padding-left: 0px !important;
   }
 
   .boba-display-2 {
-    max-width: 50% !important;
+    max-width: 230px;
     height: auto;
     margin-left: 0px !important;
   }
 
   #projects .weather-demo {
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
     border-radius: 50px;
   }
