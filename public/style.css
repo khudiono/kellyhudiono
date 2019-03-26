@@ -231,7 +231,7 @@ body {
   font-family: 'Rubik', sans-serif !important;
   position: absolute;
   right: 50px;
-  margin-right: 20%;
+  margin-right: 11%;
   margin-top: -30px;
   transition: all .2s ease-in-out !important;
   text-align: center;
@@ -364,7 +364,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 388px) {
+@media only screen and (max-width: 400px) {
   .boba-display-1 {
     max-width: 300px !important;
     height: auto;
@@ -379,6 +379,11 @@ body {
 
   .weather-demo {
     max-width: 200px;
+  }
+
+  #about .about-desc {
+    padding-left: 0px;
+    max-width: 350px;
   }
 
 }
