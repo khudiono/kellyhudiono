@@ -26,6 +26,7 @@ body {
   color: white;
   justify-content: flex-end;
   z-index: 100;
+  background-color: white;
 }
 
 #nav ul {
@@ -39,7 +40,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   list-style: none;
-  padding: 15px 30px 0px 30px;
+  padding: 1px 30px 0px 30px;
   cursor: pointer;
 }
 
@@ -67,13 +68,13 @@ body {
 
 #home h1 {
   text-align: center;
-  font-size: 130px;
+  font-size: 100px;
   margin-bottom: -20px;
 }
 
 #home h3 {
   font-weight: 500;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #home .social-links {
@@ -274,7 +275,7 @@ body {
 }
 
 .blog img {
-  max-width: 270px;
+  max-width: 250px;
   height: auto;
   padding-right: 4px;
 }
@@ -289,8 +290,8 @@ body {
 }
 
 .blog-photo-row-2 img {
-  height: 105px;
-  width: 105px;
+  height: 99px;
+  width: 99px;
   padding-right: 4px;
   object-fit: cover;
 }
@@ -363,6 +364,25 @@ body {
   }
 }
 
+@media only screen and (max-width: 388px) {
+  .boba-display-1 {
+    max-width: 300px !important;
+    height: auto;
+    padding-left: 0px !important;
+  }
+
+  .boba-display-2 {
+    max-width: 280px !important;
+    height: auto;
+    margin-left: 0px !important;
+  }
+
+  .weather-demo {
+    max-width: 200px;
+  }
+
+}
+
 @media only screen and (max-width: 800px) {
   .project-button {
     width: 200px !important;
@@ -399,7 +419,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1020px){
+@media only screen and (max-width: 1075px){
   .project-button {
     width: 250px;
     padding: 18px 5px 18px 5px;
@@ -420,13 +440,13 @@ body {
   }
 
   .boba-display-1 {
-    max-width: 230px;
+    max-width: 400px;
     height: auto;
     padding-left: 0px !important;
   }
 
   .boba-display-2 {
-    max-width: 230px;
+    max-width: 380px;
     height: auto;
     margin-left: 0px !important;
   }
