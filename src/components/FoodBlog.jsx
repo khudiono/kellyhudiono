@@ -72,8 +72,8 @@ const FoodBlog = () => {
                 <a href="https://www.yelp.com/user_local_photos?select=-MH12w_3IhwMGteJLbK99w&userid=GCcKZJPv5yG-5FDy5j9o5g" target="_blank">
                   <img src="https://s3-media3.fl.yelpcdn.com/bphoto/-MH12w_3IhwMGteJLbK99w/o.jpg" />
                 </a>
-              </div>
               </LazyLoad>
+              </div>
           </div>
         </div>
       </div>
