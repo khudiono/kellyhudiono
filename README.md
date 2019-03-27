@@ -1,2 +1,2 @@
 # kellyhudiono
-Personal website. Deployed with Heroku [www.kellyhudiono.com](http://www.kellyhudiono.com)
+Personal website. Deployed with Heroku [kellyhudiono.comi](https://kellyhudiono.herokuapp.com/)
