@@ -202,12 +202,13 @@ body {
 }
 
 #projects .project-display {
-  padding-left: 150px;
-  padding-right: 90px;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
 }
 
 #projects .boba-display-1 {
-  max-width: 550px;
+  max-width: 500px;
   height: auto;
   padding-left: 50px;
 }
@@ -319,7 +320,7 @@ body {
   color: #4285F4;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .boba-display-1 {
     max-width: 300px !important;
     height: auto;
