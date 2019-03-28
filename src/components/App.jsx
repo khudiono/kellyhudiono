@@ -16,7 +16,7 @@ class App extends Component {
           <ul>
             <li><a href="#about"> About</a></li>
             <li><a href="#projects"> Projects</a></li>
-            <li><a href="/kellyhudiono-resume.pdf" target="_blank"> Resume</a></li>
+            <li><a href="/khudiono-resume.pdf" target="_blank"> Resume</a></li>
             <li><Link to={'./foodblog'}>Food Blog</Link></li>
           </ul>
         </div>

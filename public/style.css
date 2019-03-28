@@ -209,13 +209,12 @@ body {
 #projects .boba-display-1 {
   max-width: 550px;
   height: auto;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 #projects .boba-display-2 {
   max-width: 400px;
   height: auto;
-  margin-left: -200px;
 }
 
 #projects .weather-demo {
@@ -320,6 +319,44 @@ body {
   color: #4285F4;
 }
 
+@media only screen and (max-width: 400px) {
+  .boba-display-1 {
+    max-width: 300px !important;
+    height: auto;
+    padding-left: 0px !important;
+  }
+
+  .boba-display-2 {
+    max-width: 280px !important;
+    height: auto;
+    margin-left: 0px !important;
+  }
+
+  .weather-demo {
+    max-width: 200px;
+  }
+
+  #about .about-desc {
+    padding-left: 0px;
+    max-width: 350px;
+  }
+
+  #home {
+    min-height: 740px;
+    padding: 10px 10px 10px 10px;
+    background-image: url("../images/bg-phone.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
+
 @media only screen and (max-width: 600px) {
   #home h1 {
     font-size: 85px;
@@ -363,44 +400,6 @@ body {
   .about-desc p {
     font-size: 13px;
   }
-}
-
-@media only screen and (max-width: 400px) {
-  .boba-display-1 {
-    max-width: 300px !important;
-    height: auto;
-    padding-left: 0px !important;
-  }
-
-  .boba-display-2 {
-    max-width: 280px !important;
-    height: auto;
-    margin-left: 0px !important;
-  }
-
-  .weather-demo {
-    max-width: 200px;
-  }
-
-  #about .about-desc {
-    padding-left: 0px;
-    max-width: 350px;
-  }
-
-  #home {
-    min-height: 740px;
-    padding: 10px 10px 10px 10px;
-    background-image: url("../images/bg-phone.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -468,7 +467,6 @@ body {
   .boba-display-2 {
     max-width: 380px;
     height: auto;
-    margin-left: 0px !important;
   }
 
   #projects .weather-demo {
@@ -476,11 +474,13 @@ body {
     height: auto;
     border-radius: 50px;
   }
+}
+
+@media only screen and (max-width: 1300px){
 
   .project-display {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 }
