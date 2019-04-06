@@ -15,6 +15,11 @@ body {
   background-color: #fffafa;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 #nav {
   display: flex;
   flex-direction: row;
@@ -320,6 +325,54 @@ body {
   color: #4285F4;
 }
 
+@media (max-width: 400px) {
+  .boba-display-1 {
+    max-width: 280px !important;
+    height: auto;
+    padding-left: 0px !important;
+  }
+
+  .boba-display-2 {
+    max-width: 265px !important;
+    height: auto;
+    margin-left: 0px !important;
+  }
+
+  .weather-demo {
+    max-width: 190px;
+  }
+
+  #about .about-desc {
+    padding-left: 0px;
+    max-width: 290px !important;
+  }
+
+  #home {
+    min-height: 700px;
+    padding: 10px 10px 10px 10px;
+    background-image: url("../images/bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #home h1 {
+    text-align: center;
+    font-size: 70px !important;
+    margin-bottom: -20px;
+  }
+
+  #home h3 {
+    font-weight: 500;
+    font-size: 14px !important;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .boba-display-1 {
     max-width: 300px !important;
@@ -345,7 +398,7 @@ body {
   #home {
     min-height: 740px;
     padding: 10px 10px 10px 10px;
-    background-image: url("../images/bg-phone.jpg");
+    background-image: url("../images/bg.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -403,7 +456,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .project-button {
     width: 200px !important;
   }
@@ -439,7 +492,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1075px){
+@media (max-width: 1075px){
   .project-button {
     width: 250px;
     padding: 18px 5px 18px 5px;
@@ -477,7 +530,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1300px){
+@media (max-width: 1300px){
 
   .project-display {
     display: flex;
