@@ -31,6 +31,7 @@ html, body {
   font-size: 18px;
   justify-content: flex-end;
   z-index: 100;
+  transition: background-color 0.4s ease-out;
 }
 
 .nav-bar-color {
