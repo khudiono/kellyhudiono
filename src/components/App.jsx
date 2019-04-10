@@ -14,14 +14,19 @@ class App extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.scrollEvent)
+    window.addEventListener('scroll', this.scrollEvent);
+    window.scrollTo(0,0);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.scrollEvent);
   }
 
   scrollEvent(e) {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 200) {
       this.setState({nav: 'nav-bar-color'});
     }
-    if (window.scrollY < 300) {
+    if (window.scrollY < 200) {
       this.setState({nav: ''});
     }
   }
