@@ -29,10 +29,12 @@ html, body {
   right: 0;
   max-height: 60px;
   font-size: 18px;
-  color: white;
   justify-content: flex-end;
   z-index: 100;
-  background-color: #fffafa;
+}
+
+.nav-bar-color {
+  background-color: #fffafa !important;
 }
 
 #nav ul {
@@ -61,7 +63,7 @@ html, body {
 #home {
   min-height: 740px;
   padding: 10px 10px 10px 10px;
-  background-image: url("../images/bg.png");
+  background-image: url("../images/background.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -454,6 +456,20 @@ html, body {
   .about-desc p {
     font-size: 13px;
   }
+
+  .project-button {
+    width: 200px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif !important;
+    position: absolute;
+    left: 0;
+    margin-left: 11%;
+    transition: all .2s ease-in-out !important;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 800px) {
@@ -530,7 +546,7 @@ html, body {
   }
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1400px){
 
   .project-display {
     display: flex;
